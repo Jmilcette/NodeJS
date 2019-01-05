@@ -9,7 +9,7 @@ var Person = function(name) {
 
 util.inherits(Person, events.EventEmitter);
 
-var joe = new Person("Joe");
+var joe = new Person("Josh");
 var mike = new Person("Mike");
 var ryu = new Person("Ryu");
 var ken = new Person("Ken");
