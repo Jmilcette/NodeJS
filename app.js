@@ -1,3 +1,8 @@
-var counter = require("./count")
+var stuff = require("./stuff")
 
-console.log(counter(["Josh.", "Josh!", "Josh?"]));
+console.log(stuff.counter(["Joe", "Christian", "Brett"]));
+ 
+ 
+console.log(stuff.adder(10, 12));
+
+console.log(stuff.pi);
